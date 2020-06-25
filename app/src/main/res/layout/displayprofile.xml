@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_close_black_24dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- contain back activity -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <com.example.dating.Utils.SquareImageView
+                    android:id="@+id/profileImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="Click to change profile photo"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monkey" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/name_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:text="Victoria, 19"
+                android:textColor="@color/textColor"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/distance_main"
+                android:layout_width="202dp"
+                android:layout_height="31dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="5 miles away"
+                android:drawableLeft="@drawable/locationdraw"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/HerStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Single"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/bio_beforematch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Something about Victoria"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/HerSexuality"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Interested in Men"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/HerSeeking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Seeking for"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/HerInterest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Singing"
+                android:textSize="16sp" />
+
+                </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
