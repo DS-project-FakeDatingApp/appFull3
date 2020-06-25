@@ -65,7 +65,7 @@ public class SetupActivity extends AppCompatActivity {
     private GeoFirestore geoFirestore;
     LocationRequest mLocationRequest;
     private ArrayList<User> mUserList;
-    private static final int ACTIVITY_NUM = 2;
+    private static final int ACTIVITY_NUM = 1;
     private Context mContext = SetupActivity.this;
 
     @Override

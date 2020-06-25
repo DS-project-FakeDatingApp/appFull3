@@ -34,6 +34,8 @@
         </activity>
 
         <activity android:name=".Main.MainActivity"/>
+        <activity android:name=".Message.DiscoverActivity"/>
+        <activity android:name=".Message.MessageActivity"/>
         <activity android:name=".Profile.Profile_Activity" />
         <activity android:name=".Main.DisplayProfile" />
         <activity android:name=".Main.BtnLikeActivity" />
